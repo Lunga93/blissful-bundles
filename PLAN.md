@@ -1,35 +1,25 @@
-# Blissful Bundles - Development Plan
+# Blissful Bundles - Project Status
 
-## 1. Project Setup
+## 1. Project Setup (Done ✅)
 - [x] Initialize Vite + React project.
-- [x] Install dependencies: `firebase`, `jotai`, `framer-motion`, `react-icons`, `lottie-react`.
+- [x] Install dependencies: `jotai`, `framer-motion`, `react-icons`, `lottie-react`.
 - [x] Install & Configure Tailwind CSS + DaisyUI.
+- [x] **Design Overhaul:** Implemented "Bright & Fancy" palette (Gold, Cream, Deep Red).
 
-## 2. Configuration
-- [x] Configure `tailwind.config.js` (colors, fonts, plugins).
-- [x] Add Tailwind directives to `src/index.css`.
-- [x] Create `src/lib/firebase.js` (placeholder for config).
+## 2. Components (Done ✅)
+- [x] **Hero:** Video background with "Valentine's Day Special" overlay.
+- [x] **ProductList:** Responsive grid with local images.
+- [x] **Testimonials:** "Love Notes" horizontal carousel.
+- [x] **WavingGirl:** Sticky animation for general inquiries.
+- [x] **Footer:** Simplified, warm "Thank You" message with social icons.
+- [x] **Assets:** Custom Logo (SVG) and Favicon.
 
-## 3. Core Structure
-- [x] Create directories: `components`, `data`, `store`, `assets`.
-- [x] Define static product data in `src/data/products.js`.
-- [x] Create Jotai atoms in `src/store/atoms.js`.
+## 3. Deployment (Done ✅)
+- [x] **Hosting:** Netlify (Static Site).
+- [x] **Domain:** Connected `blissfulbundles.co.za`.
+- [x] **SSL:** HTTPS provisioning (Pending DNS propagation).
+- [x] **SEO:** Meta tags, Open Graph (WhatsApp previews), and professional title/description added.
 
-## 4. Components
-- [x] **Hero**: Landing section with smooth scroll.
-- [x] **ProductCard**: Individual product display with WhatsApp integration.
-- [x] **ProductList**: Grid layout for products.
-- [x] **WavingGirl**: Lottie animation component.
-- [x] **Footer**: Contact info and links.
-- [x] **App**: Assemble all components.
-
-## 5. Firebase Setup (User Action Required)
-- [ ] Create Firebase Project.
-- [ ] Enable Firestore (Collection: `prices`).
-- [ ] Enable Storage (Folder: `products`).
-- [ ] Get Config & Add to `.env`.
-
-## 6. Final Polish
-- [ ] Verify responsiveness.
-- [ ] Check animations.
-- [ ] Test WhatsApp links.
+## 4. Maintenance (Ongoing 🔄)
+- [ ] Periodically check product prices in `src/data/products.js`.
+- [ ] Update special offers after Valentine's Day.
