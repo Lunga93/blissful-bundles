@@ -1,60 +1,52 @@
 # Blissful Bundles
 
-Gift Website that is a gateway from ads to WhatsApp. Used to let people know about the existence of the company and attract new buyers.
+A premium product showcase website for "Blissful Bundles", a gifting business based in South Africa. The site serves as a digital catalog to attract customers and direct them to WhatsApp for orders.
 
-## Getting Started
+## Features
 
-### 1. Firebase Setup
+- **Elegant Design:** Mobile-responsive layout with a "bright and fancy" aesthetic using Tailwind CSS and DaisyUI.
+- **Video Hero Section:** Engaging video background to capture attention immediately.
+- **Product Showcase:** Dynamic grid of products with images, descriptions, and "Starting from" prices.
+- **WhatsApp Integration:** "Order on WhatsApp" buttons pre-fill messages with product details for seamless ordering.
+- **Testimonials:** A "Love Notes" section displaying customer feedback in a horizontal carousel.
+- **Waving Girl:** A cute, animated sticky component to encourage general inquiries.
 
-#### A. Create Project
-1. Go to [Firebase Console](https://console.firebase.google.com/).
-2. Create a new project named `blissful-bundles`.
-3. Disable Google Analytics (optional).
+## Tech Stack
 
-#### B. Add Web App
-1. Click the web icon `</>`.
-2. Register app as `Blissful Bundles Web`.
-3. Copy the `firebaseConfig` object values.
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS + DaisyUI + Framer Motion
+- **State Management:** Jotai
+- **Icons:** React Icons
+- **Animation:** Lottie React
+- **Deployment:** Netlify (Static Site)
 
-#### C. Create .env File
-Create a file named `.env` in the project root and add your keys:
+## Development
 
-```env
-VITE_FIREBASE_API_KEY=your_api_key_here
-VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Lunga93/blissful-bundles.git
+    cd blissful-bundles
+    ```
 
-#### D. Enable Firestore
-1. Go to **Firestore Database** in the left menu.
-2. Click **Create Database**.
-3. Start in **Test Mode** (or Production Mode and update rules later).
-4. Create a collection named `prices`.
-5. Add documents with IDs matching the product slugs:
-   - Document ID: `eternal-roses` -> Field: `price` (number): `340`
-   - Document ID: `the-classic-trio` -> Field: `price` (number): `700`
-   - Document ID: `the-sweet-pairing` -> Field: `price` (number): `0` (or leave empty if custom)
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-#### E. Enable Storage
-1. Go to **Storage** in the left menu.
-2. Click **Get Started**.
-3. Start in **Test Mode**.
-4. Create a folder named `products`.
-5. Upload your images and rename them to match the slugs:
-   - `eternal-roses.jpg`
-   - `sweet-pairing.jpg`
-   - `classic-trio.jpg`
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-### 2. Running the App
+4.  **Build for production:**
+    ```bash
+    npm run build
+    ```
 
-```bash
-npm run dev
-```
+## Deployment
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+This project is configured for deployment on Netlify. It automatically builds the `dist` folder using `npm run build`.
 
-### 3. Assets
-- Replace `src/assets/waving-girl.json` with your actual Lottie JSON file.
+## License
+
+All rights reserved. Blissful Bundles 2026.

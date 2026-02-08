@@ -1,3 +1,4 @@
+// src/components/ProductCard.jsx
 import { useAtomValue } from 'jotai';
 import { pricesAtom } from '../store/atoms';
 import { FaWhatsapp } from 'react-icons/fa';
