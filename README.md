@@ -1,52 +1,55 @@
-# Blissful Bundles
+# Blissful Bundles 🌸
 
-A premium product showcase website for "Blissful Bundles", a gifting business based in South Africa. The site serves as a digital catalog to attract customers and direct them to WhatsApp for orders.
+> **"Thoughtfully Wrapped"**
 
-## Features
+A beautiful, mobile-first product showcase website designed for **Blissful Bundles**, a boutique gifting business in Mokopane, South Africa. This application serves as an elegant digital catalog, allowing customers to explore curated Valentine's Day specials and easily place orders via WhatsApp.
 
-- **Elegant Design:** Mobile-responsive layout with a "bright and fancy" aesthetic using Tailwind CSS and DaisyUI.
-- **Video Hero Section:** Engaging video background to capture attention immediately.
-- **Product Showcase:** Dynamic grid of products with images, descriptions, and "Starting from" prices.
-- **WhatsApp Integration:** "Order on WhatsApp" buttons pre-fill messages with product details for seamless ordering.
-- **Testimonials:** A "Love Notes" section displaying customer feedback in a horizontal carousel.
-- **Waving Girl:** A cute, animated sticky component to encourage general inquiries.
+![Blissful Bundles Hero](public/assets/white_poster_with_specials.jpeg)
 
-## Tech Stack
+## 🎯 Project Goals
 
-- **Frontend:** React + Vite
-- **Styling:** Tailwind CSS + DaisyUI + Framer Motion
-- **State Management:** Jotai
-- **Icons:** React Icons
-- **Animation:** Lottie React
-- **Deployment:** Netlify (Static Site)
+- **Digital Presence:** Establish a professional online footprint for the brand beyond social media.
+- **Visual Storytelling:** Showcase the "bright and fancy" aesthetic of the handmade gifts using a warm, luxurious design palette (Gold, Cream, Deep Red).
+- **Conversion Focused:** Streamline the path from "browsing" to "ordering" by integrating direct-to-WhatsApp call-to-action buttons.
+- **Mobile First:** Optimized for the primary device of the target audience.
 
-## Development
+## ✨ Key Features
 
-1.  **Clone the repository:**
+- **Cinematic Entrance:** A video background hero section that immediately immerses visitors in the brand's atmosphere.
+- **Live Product Grid:** A responsive gallery featuring:
+    - *Eternal Roses* (Handmade & Everlasting)
+    - *The Sweet Pairing* (Cupcake Curation)
+    - *The Classic Trio* (Wine, Roses, Chocolate)
+- **Interactive "Love Notes":** A horizontal scrolling testimonial section building trust with social proof.
+- **Seamless Ordering:** Clicking "Order on WhatsApp" pre-fills a message with the specific product details, making it effortless for customers to start a purchase.
+- **Playful Interactions:** A sticky "Waving Girl" animation that adds a touch of personality and invites general inquiries.
+
+## 🛠️ Technical Overview
+
+Built with modern web technologies for performance and ease of maintenance:
+
+- **Frontend:** React (Vite) for a fast, snappy user experience.
+- **Styling:** Tailwind CSS + DaisyUI for a custom, cohesive design system.
+- **State:** Jotai for managing application state.
+- **Animations:** Framer Motion & Lottie for delightful micro-interactions.
+- **Deployment:** Netlify (Static Hosting) for speed and reliability.
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1.  **Clone the repo:**
     ```bash
     git clone https://github.com/Lunga93/blissful-bundles.git
-    cd blissful-bundles
     ```
-
 2.  **Install dependencies:**
     ```bash
     npm install
     ```
-
-3.  **Run the development server:**
+3.  **Start the server:**
     ```bash
     npm run dev
     ```
 
-4.  **Build for production:**
-    ```bash
-    npm run build
-    ```
-
-## Deployment
-
-This project is configured for deployment on Netlify. It automatically builds the `dist` folder using `npm run build`.
-
-## License
-
-All rights reserved. Blissful Bundles 2026.
+---
+*Built with ❤️ for Blissful Bundles.*
